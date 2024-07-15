@@ -1,5 +1,5 @@
-Flask==2.0.1
-SQLAlchemy==1.4.20
-requests==2.25.1
-gunicorn==20.1.0
-psycopg2-binary==2.9.1
+requests==2.25.1  # HTTP requests library
+flask==2.0.1  # Web framework, if needed for hosting your app
+graphviz==0.16  # For diagram generation
+pillow==8.3.1  # For image processing
+notion==0.0.28  # Notion API client (example package, verify actual package name and version)
