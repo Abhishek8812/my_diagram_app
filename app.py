@@ -44,7 +44,7 @@ def index():
         diagram = create_excalidraw_diagram(mermaid_code)
         
         prompts = ["Add a detailed explanation of each node", "Include examples"]
-        images = ["image1.png", "image2.png"]
+        images = ["image1.jpeg", "image2.jpeg"]
         
         final_diagram = refine_diagram(diagram, prompts, images)
         
