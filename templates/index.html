@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flow Diagram Generator</title>
+</head>
+<body>
+    <h1>Flow Diagram Generator</h1>
+    <form method="POST">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="objective">Objective:</label><br>
+        <input type="text" id="objective" name="objective"><br><br>
+        <input type="submit" value="Generate Diagram">
+    </form>
+    <hr>
+    {% if final_diagram %}
+        <h2>Generated Diagram:</h2>
+        <pre>{{ final_diagram }}</pre>
+    {% endif %}
+</body>
+</html>
